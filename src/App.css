@@ -1,0 +1,51 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+  text-align: center;
+}
+
+.page {
+  max-width: 800px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #3d3535;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #b2cf61;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: #a5cc51;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
